@@ -14,8 +14,8 @@ With around 14 HTML files, this project includes a variety of pages for differen
 
  product.html, proudct2.html, and like.html provide detailed information on beauty products, including styling and usage tips.
 news.html, contactus.html, and polices.html cover additional content such as beauty news, contact information, and website policies.
-The main stylesheet that brings consistent, responsive styling to all pages.
--ty-Glow** is  JavaScript file to enhance interactive elements throughout the site.
+style.css The main stylesheet that brings consistent, responsive styling to all pages.
+script.js is JavaScript file to enhance interactive elements throughout the site.
 
 ## How to Run
 1. Clone the repository:
