@@ -13,8 +13,8 @@ With around 14 HTML files, this project includes a variety of pages for differen
 # Beauty & Glow
 
  product.html, proudct2.html, and like.html provide detailed information on beauty products, including styling and usage tips.
--ow** is a comprehensive w Files like news.html, contactus.html, and polices.html cover additional content such as beauty news, contact information, and website policies.
--s a comprehen The main stylesheet that brings consistent, responsive styling to all pages.
+news.html, contactus.html, and polices.html cover additional content such as beauty news, contact information, and website policies.
+The main stylesheet that brings consistent, responsive styling to all pages.
 -ty-Glow** is  JavaScript file to enhance interactive elements throughout the site.
 
 ## How to Run
