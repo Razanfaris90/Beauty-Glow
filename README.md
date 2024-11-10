@@ -8,7 +8,7 @@ development project des Multiple pages dedicated to product information and styl
 
 
 ## Project Structure
-With around 14 HTML files, this project includes a variety of pages for different sections
+With around 14 HTML files, one css file and one javascript file, this project includes a variety of pages for different sections
 
 # Beauty & Glow
 
