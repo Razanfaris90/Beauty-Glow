@@ -10,14 +10,14 @@
 **Beauty-Glow** is a compr An intuitive layout with multiple interconnected pages, allowing seamless exploration of tutorials and products.
 
 ## Project Structure
-With around 40 HTML files, this project includes a variety of pages for different sections:
+With around 14 HTML files, this project includes a variety of pages for different sections:
 - wide array o The main landing page that introduces users to the website.
 -auty-Glow
 
 **Beauty- HTML files such as makeup2.html, bagcolor.html, and curly.html offer video tutorials on specific makeup techniques.
 -b:
 
-# Beauty-Glow
+# Beauty & Glow
 
  product.html, proudct2.html, and like.html provide detailed information on beauty products, including styling and usage tips.
 -ow** is a comprehensive w Files like news.html, contactus.html, and polices.html cover additional content such as beauty news, contact information, and website policies.
@@ -28,10 +28,6 @@ With around 40 HTML files, this project includes a variety of pages for differen
 1. Clone the repository:
    ```bash
    git clone https://github.com/Razanfaris90/Beauty-Glow.git
-
- 2. Navigate to the project directory:
-
-cd Beauty-Glow
 
 
  3. Open Home.html in your web browser to start exploring the site.
