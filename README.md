@@ -3,19 +3,12 @@
 **Beauty & GLow** is a comprehensive web development project designed to guide users through makeup techniques, beauty tips, and product insights. Featuring a wide array of tutorial pages, product showcases, and interactive elements, this website serves as a one-stop platform for beauty enthusiasts.
 
 ## Features
--ements, this website serves as a Step-by-step video guides on makeup applications, covering everything from foundation to eyeliner techniques.
--development project des Multiple pages dedicated to product information and styling ideas.
--ow
+this website serves as a Step-by-step video guides on makeup applications, covering everything from foundation to eyeliner techniques.
+development project des Multiple pages dedicated to product information and styling ideas.
 
-**Beauty-Glow** is a compr An intuitive layout with multiple interconnected pages, allowing seamless exploration of tutorials and products.
 
 ## Project Structure
-With around 14 HTML files, this project includes a variety of pages for different sections:
-- wide array o The main landing page that introduces users to the website.
--auty-Glow
-
-**Beauty- HTML files such as makeup2.html, bagcolor.html, and curly.html offer video tutorials on specific makeup techniques.
--b:
+With around 14 HTML files, this project includes a variety of pages for different sections
 
 # Beauty & Glow
 
