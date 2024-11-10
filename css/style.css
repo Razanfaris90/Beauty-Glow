@@ -1,0 +1,1011 @@
+/* This is The Main Design For all Pages! made by wafaa */
+body {
+    max-width: 1200px;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f2f4;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+a:hover {
+    color: #c89595;
+}
+
+/* nav ul li .currentPage nav{ 
+    color: #729716;
+}*/
+
+
+header {
+    padding-left: 220px;
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+header h1 {
+    color: #fff;
+}
+
+nav {
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #333;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+nav a:hover+.submenu,
+.submenu:hover {
+    display: block;
+
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    font-weight: bold;
+
+}
+
+nav ul li {
+    position: relative;
+    font-size: 20px;
+}
+
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: max-content;
+}
+
+nav ul li:hover ul.submenu {
+    display: block;
+
+}
+
+footer {
+
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+
+}
+
+
+footer a {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+p {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f2f4;
+}
+
+input[type="submit"] {
+    background-color: #be8f8e;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #be8f8e;
+}
+
+.news-content {
+    display: none;
+    margin-top: 20px;
+}
+.form-info-container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 0px solid;
+}
+
+.form-info-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f2f4;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 0px solid;
+    box-sizing: border-box;
+}
+
+.form-info-container input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 0px rgba(0, 127, 255, 0.5);
+}
+
+.form-info-container button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #be8f8e;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.form-info-container button[type="button"]:hover {
+    background-color: #be8f8e;
+}
+
+.form-info-contact {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+  
+.animated-logo {
+    animation: shake 0.5s infinite linear;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+/* home page style */
+.main-home-Container-dark {
+    width: 90%;
+    padding: 50px;
+    background-color: #f0e3e7;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-home-Container-light {
+    width: 90%;
+    padding: 50px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-home-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.learnMore-img {
+    width: 150px;
+    height: auto;
+}
+
+/* skin page style */
+/* retaj css and marah*/
+
+/* class for h1 selector style */
+h1.color1 {
+    background-color: #eec0c8;
+    color: #ffffff;
+    line-height: 200%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* class for h2 selector style */
+h2.color2 {
+    background-color: #eec0c8;
+    color: #ffffff;
+    line-height: 200%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* class for p selector style */
+p.Pstyle {
+    text-align: center;
+}
+
+/*this is a div class container to display things in the center */
+div.container {
+    text-align: center;
+}
+
+/*class for unorder list  style*/
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+
+/*class for order list  style*/
+ol.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+/* proudct T-T page style */
+
+
+/*=====================================================================================================*/
+/* proudcts */
+/* CSS for Products made by hacker razan */
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 250px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.box-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title-price {
+    padding: 10px;
+}
+
+.product-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stars {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+i.bx {
+    font-size: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* CSS for New Collection made by SABAH */
+.new-collection {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.collection-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.collection-items {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for the new collection section made by SABAH */
+.new {
+    padding: 50px 0;
+}
+
+.new .header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.new .header span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.new .header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.new-contantainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Styles for the product boxes made by hacker razan */
+.box {
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img img {
+    width: 60%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.title-price {
+    margin-bottom: 10px;
+}
+
+.title-price h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.stars i {
+    color: gold;
+    font-size: 20px;
+}
+
+span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box i.bx-cart {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Styles for the  About Section made by SABAH  */
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-img {
+    flex: 1;
+    text-align: center;
+}
+
+.about-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-text {
+    flex: 1;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.about-text span {
+    color: #ff4081;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Brand Partners Section made by SABAH  */
+.brands {
+    padding: 50px;
+    text-align: center;
+}
+
+.brands .heading {
+    margin-bottom: 30px;
+}
+
+.brands .heading span {
+    color: #ff4081;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brand-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.brand-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.brand-image:hover {
+    transform: scale(1.1);
+}
+
+.brand-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*  massge window style made by the SABAH  */
+.window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+
+/* news page style */
+
+
+.div-news {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(244, 241, 241, 0.1);
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+    padding: 5px;
+
+}
+
+figcaption {
+    font-size: small;
+    padding: 5px;
+}
+
+.read-more-container {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.container.news {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+}
+
+.container.news img {
+    width: 300px;
+    height: 250px;
+}
+
+.read-more-btn {
+    color: #dc9292;
+}
+
+.read-more-text {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+#fullText{
+    display: block;
+}
+
+.read-more-text--show {
+    max-height: none;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
+
+ol img {
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 24px;
+}
+
+
+/* like page style */
+
+
+/*this code created by https://github.com/jeycaarce/message/blob/main/style.css*/
+#youLike {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#youLike .gif {
+    height: 100%;
+    width: 100%;
+}
+
+#youLike h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+#youLike .btn-group {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#youLike button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    font-size: 1.2em;
+}
+
+#youLike button:nth-child(1) {
+    margin-left: -200px;
+    background: #e94d58;
+}
+
+#youLike button:nth-child(2) {
+    margin-right: -200px;
+    background: white;
+    color: #e94d58;
+}
+
+
+/* makeup page style made bu hacker razan*/
+.section {
+    margin-bottom: 20px;
+    
+  }
+  
+  .forh1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:#ff4081
+  }
+  
+  .custom-h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff4081;
+}
+
+  
+  /* Add styles to the "Get Makeup Tip" button made by hacker razan */
+  button {
+    background-color: #ff4081;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #d5004e;
+  }
+/* for makeup tip made by hacker razan */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    animation: fadeOut 2s ease-in-out;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* for doitcorrectly page */
+    .video-container {
+      display: flex;
+    }
+    
+    .video-container video {
+      margin-right: 20px;
+    }
+  
+
+  /* color theory page style */
+  /* style of h2 background*/
+.pink-bg {
+    background-color: pink;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  /* style of h4 background*/
+  .white-bg {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align:center;
+  }
+  /*style for the -Cards- color*/
+  .color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .column {
+    background-color: #eec0c8;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .column h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  .column.blue {
+    background-color: #C0E8F9;
+    color: #000000;
+    
+  }
+  
+  .column.red {
+    background-color: #FF6666;
+    color: #ffffff;
+  }
+  
+  .column.green {
+    background-color: hsl(120, 75%, 85%);
+  }
+  
+  .column.yellow {
+    background-color: #FDEA88;
+  }
+  
+  .column.purple {
+    background-color: #DAB8FF;
+  }
+  
+  .column.orange {
+    background-color: #FFC58F;
+  }
+  
+  .column.pink {
+    background-color: #FFC0CB;
+    color: #000000;
+  
+  }
+  
+  .column.black {
+    background-color: #333;
+    color: #ffffff;
+  
+  }
+  
+  .column.white {
+    background-color: white;
+    color: #000000;
+  }
+  /* style for the -top- botton made by SABAH*/
+  .button { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #333; 
+    color: #fff; 
+    text-decoration: none; 
+    margin-top: 10px; 
+    transition: background-color 0.3s ease; 
+    } 
+  
+  .button:hover { 
+    background-color: #666; 
+    } 
+     /* stuly for the -img scroller- made by SABAH */
+  div.scroll-container { 
+    background-color: pink; 
+    overflow: auto; 
+    white-space: nowrap; 
+    padding: 10px; 
+    } 
+  
+  div.scroll-container img { 
+    padding: 10px; 
+    width: 300px; 
+    height: 400px; 
+    } 
+  /*style for card -text-*/
+  .h3-color { 
+    color:black; 
+    }
+  /* stuly for the -table- made by SABAH*/
+  table, th, td { 
+    border: 2px solid black; 
+    border-collapse: collapse; 
+    text-align: center;
+    } 
+  
+  table.center { 
+    margin-left: auto;  
+    margin-right: auto; 
+    } 
+  .small-image { 
+    max-width: 300px; 
+    height: auto;
+    }
+    video {
+        width: 1000px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* for do it correctly page */
+    
+    
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .fix-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .fix-button {
+        padding: 10px 20px;
+        font-size: 18px;
+      }
+  /* style for page privacy polices */
+  .privacy-policy-container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy-container h1 {
+    color: #a12360;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.privacy-policy-container h2 {
+    color: #a12360; /* Highlight color for h2 */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.privacy-policy-container p {
+    line-height: 1.6;
+    color: #050303;
+    margin-bottom: 15px;
+ 
+    font-family: Arial, sans-serif;
+    
+}
+
+.privacy-policy-container li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #010101;
+  font-weight: bold;
+}
+
+
+
+
+  
