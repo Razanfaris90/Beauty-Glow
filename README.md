@@ -1,4 +1,4 @@
-# Beauty-Glow
+# Beauty-& Glow
 
  
  is a web project that provides makeup tutorials, product highlights, and beauty tips. This website includes interactive elements to guide users through various makeup techniques, with video demos and product recommendations.
